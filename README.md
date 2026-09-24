@@ -31,6 +31,7 @@ The dashboard is developed using Python, Pandas, Plotly, and Streamlit.
 - Streamlit
 - OpenPyXL
 - Git and GitHub
+- VS Code
 
 ---
 
@@ -49,9 +50,7 @@ The project uses a Superstore sales dataset containing information about:
 - Regions
 - Order and shipping dates
 
-Dataset file:
-
-`Superstore.csv`
+**Dataset file:** `Superstore.csv`
 
 The dataset contains **10,800 records and 21 columns**.
 
@@ -90,7 +89,16 @@ Displays important business KPIs such as:
 - Loss-Making Sub-Categories
 - Discount vs Profit Analysis
 
-### 6. Business Insights
+### 6. Interactive Filters
+
+Users can filter the dashboard based on:
+
+- Region
+- Category
+
+All charts and KPIs update according to the selected filters.
+
+### 7. Business Insights
 
 The dashboard automatically identifies:
 
@@ -121,7 +129,7 @@ The dashboard helps businesses understand:
 
 ### Step 1: Clone or download the repository
 
-Open the project folder in VS Code.
+Download the repository to your computer and open the project folder in VS Code.
 
 ### Step 2: Create a virtual environment
 
